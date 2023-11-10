@@ -13,6 +13,23 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".BottomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BottomBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TopBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu_topbar_activity"
+            android:exported="false"
+            android:label="@string/title_activity_menu_topbar"
+            android:theme="@style/Theme.MyApp.NoActionBar" />
+        <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
